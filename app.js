@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function (_e) {
             var btnGeoloc = document.querySelector("#bcStations .btnGeoloc");
             btnGeoloc.classList.toggle("active");
             // TODO
-        }
+        }   
         else {
             alert("Votre appareil ne supporte pas la géolocalisation.");    
         }
